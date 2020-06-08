@@ -1,0 +1,456 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #111;
+}
+ul{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+.container{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+/* Menu Section */
+
+.menu-section{}
+.menu{}
+.menu ul{position: fixed;right: 18%;top: 17%;}
+.menu ul li{
+	    position: relative;
+    padding-bottom: 60px;
+}
+.menu ul li i{
+	color: #fff;
+background: #ffb400;
+height: 40px;
+width: 40px;
+line-height: 40px;
+position: absolute;
+right: 0;
+border-radius: 50%;
+text-align: center;
+}
+.menu ul li:hover i{}
+.menu ul li a{
+	color: #fff;
+background: #ffb400;
+height: 40px;
+position: absolute;
+right: 6px;
+padding: 0 25px;
+line-height: 35px;
+border-radius: 20px;
+z-index: -1;
+opacity: 0;
+    transition: all 0.4s;
+}
+.menu ul li:hover a{
+	    padding-right: 35px;
+    opacity: 1;
+}
+
+/* Menu Section */
+
+/* Banner Section */
+
+.banner-section{
+	padding-top: 70px;
+}
+.image{
+	max-width: 30%;
+	float: left;
+	padding-right: 5%;
+}
+.image img{
+	max-width: 100%;
+}
+.banner-content{
+	width: 40%;
+	float: left;
+}
+.banner-content h4{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0;
+	color: #eee;
+	padding-bottom: 10px;
+}
+.banner-content h1{
+	color: #ffb400;
+	text-transform: uppercase;
+	font-size: 42px;
+	margin: 0;
+}
+.banner-content h1 span{
+	color: #fff;
+	font-weight: 700;
+}
+.banner-content p{
+	font-size: 16px;
+	line-height: 25px;
+	color: #fff;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 24px;
+}
+.banner-content a{
+	color: #fff;
+	text-transform: uppercase;
+	background: #ffb400;
+	padding: 10px 20px;
+	border-radius: 30px;
+	position: relative;
+	height: 25px;
+	width: 10em;
+	font-weight: 600;
+}
+.banner-content a i{
+ opacity: 0;
+ position: absolute;
+ top: 14px;
+ right: 41px;
+ transition: all 0.3s;
+}
+.banner-content a:hover i{
+	opacity: 1;
+	right: 18px;
+}
+.banner-content a span{
+	position: absolute;
+	top: 13px;
+	left: 34px;
+	transition: all 0.3s;
+}
+.banner-content a:hover span{
+	left: 24px;
+}
+
+/* Banner Section */
+
+/* Info Section */
+
+/* Banner Section */
+
+.info-section{}
+.info-heading{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.info-heading h1{
+	margin: 0;
+	color: #fff;
+	font-size: 35px;
+}
+.info-heading span{
+	color: #ffb400;
+}
+.info-content{}
+.personal-info{
+	width: 55%;
+	float: left;
+	color: #fff;
+}
+.personal-info table{
+	padding-bottom: 20px;
+}
+.personal-info table th{
+	text-align: left;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.personal-info table tr{}
+.personal-info table td{
+	padding-right: 9px;
+	padding-bottom: 15px;
+	color: #ffffffc2;
+}
+.personal-info table td span{
+	color: #fff;
+}
+.btn{
+	color: #fff;
+	text-transform: uppercase;
+	background: #ffb400;
+	padding: 20px 85px;
+	border-radius: 30px;
+	position: relative;
+	height: 25px;
+	width: 10em;
+	font-weight: 600;
+	margin-top: 10px;
+	border: #ffb400;
+}
+.btn i{
+	opacity: 0;
+ position: absolute;
+ top: 14px;
+ right: 41px;
+ transition: all 0.3s;
+}
+.btn:hover i{
+	opacity: 1;
+	right: 18px;
+}
+.btn span{
+	position: absolute;
+	top: 13px;
+	left: 34px;
+	transition: all 0.3s;
+}
+.btn:hover span{
+	left: 24px;
+}
+
+.achivements{
+	width: 40%;
+	float: left;
+}
+.box{
+	width: 37%;
+	float: left;
+	margin: 20px 20px;
+	border: 1px solid #252525;
+}
+.box h1{
+	color: #ffb400;
+	margin: 0;
+	padding-top: 10px;
+	font-size: 40px;
+	padding-left: 20px;
+}
+.box hr{}
+.box p{
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: -9px 0px 25px 57px;
+}
+.box hr{
+	width: 16%;
+	margin: 7px 0 0 21px;
+}
+.hr{
+	margin: 0;
+	position: absolute;
+	left: 30%;
+	width: 350px;
+	top: 400px;
+	color: #252525;
+}
+
+/* Banner Section */
+
+/* Hobby Section */
+
+.hobby-section{padding: 50px 0;}
+.hobby-header{text-align: center;}
+.hobby-header h1{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.hobby-header span{
+	color: #ffb400;
+}
+.hobby{
+	width: 25%;
+	float: left;
+	padding: 15px 15px;
+	position: relative;
+	text-align: center;
+}
+.hobby:hover img{
+	opacity: 0.4;
+}
+.hobby:hover p{
+	bottom: 47%;
+}
+.hobby img{
+	height: 200px;
+	width: 250px;
+}
+.hobby p{
+	color: #ffb400;
+	text-transform: capitalize;
+	margin: 0;
+	position: absolute;
+	bottom: 28%;
+	left: 23%;
+	font-size: 20px;
+	font-weight: 600;
+	transition: all 0.5s;
+}
+
+
+/* Hobby Section */
+
+/* Education & Experience Section */
+
+.education-section{padding: 50px 0;}
+.education-header{
+	text-align: center;
+	padding-bottom: 5em;
+}
+.education-header span{
+	text-align: center;
+	color: #ffb400;
+}
+.education-header h1{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+}
+.education-part{
+	width: 42%;
+	float: left;
+	color: #fff;
+	padding-left: 40px;
+}
+.education-box{
+	
+	position: relative;
+	
+}
+.education{
+	padding-bottom: 55px;
+}
+.education::after{
+	content: "";
+	position: absolute;
+	height: 200px;
+	width: 1px;
+	top: 7px;
+	left: -19px;
+	background: #ffb400;
+}
+.education::before{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background: #ffb400;
+	top: -13px;
+	left: -29px;
+	border-radius: 50%;
+}
+.education:hover ::before{}
+.education .year{
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 10px;
+	border-radius: 20px;
+	font-weight: 600;
+	background-color: #252525;
+	opacity: .8;
+	text-transform: uppercase;
+}
+.education h3{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.education h3 span{
+	color: #a2a2a2;
+	font-size: 17px;
+}
+.education p{
+	margin: 0;
+	font-size: 14px;
+	color: #eee;
+	max-width: 350px;
+}
+.education:hover span,h3,p{}
+.experience-box{}
+
+
+/* Education & Experience Section */
+
+/* Link Section */
+
+.link-section{
+	padding: 50px 0;
+}
+.link-header{
+	text-align: center;
+}
+.link-header h1{
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.link-header span{
+	color: #ffb400;
+}
+.link{
+	width: 25%;
+	float: left;
+	padding: 20px;
+	text-align: center;
+}
+.link img{
+	width: 100%;
+	height: 130px;
+}
+.link p{
+	margin: 0;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 10px 0;
+}
+.link a{
+	color: #fff;
+	background: #ffb400;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-weight: 400;
+}
+
+
+/* Link Section */
+
+/* Movie Section */
+
+.movie-section{}
+.movie-heading{
+	text-align: center;
+}
+.movie-heading h1{
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.movie-heading span{
+	color: #ffb400;
+}
+.movie-heading i{
+	color: #ffb400;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.movie-list{}
+.movie-list ul{
+	color: #fff;
+	padding: 27px 0;
+	text-align: center;
+}
+.movie-list ul li{
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+/* Movie Section */
+
+
+
